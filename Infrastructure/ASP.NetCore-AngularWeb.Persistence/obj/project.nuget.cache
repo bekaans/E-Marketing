@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OcyISfDXI/HW35ELnHnVryAEnkMUNwmoOOc9hmx2vKzWgfg8Nx3gRJcJ4Hj5O526D5b3EeNglM2cg5F9ywCySg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Infrastructure\\ASP.NetCore-AngularWeb.Persistence\\ASP.NetCore-AngularWeb.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ASP.NetCore-AngularWeb.Application/1.0.0": {
+        "dependencies": {
+          "ASP.NetCore-AngularWeb.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ASP.NetCore-AngularWeb.Application.dll": {}
+        }
+      },
+      "ASP.NetCore-AngularWeb.Domain/1.0.0": {
+        "runtime": {
+          "ASP.NetCore-AngularWeb.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ASP.NetCore-AngularWeb.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASP.NetCore-AngularWeb.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

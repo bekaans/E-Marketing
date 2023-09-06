@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "xwgbNOqUcZ9X8tS1zIiIYNe7dtQFgQw+1tp76TceS0XpjD0GkCLD0W17dEXs+gmT5wYxPZaJsCPmX0Zt6Ay/iw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Presentation\\ASP.NetCore-AngularWeb.API\\ASP.NetCore-AngularWeb.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

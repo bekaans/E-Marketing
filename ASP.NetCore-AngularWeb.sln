@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCore-AngularWeb", "ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb.csproj", "{6D0EE06D-DBA3-444B-9164-C67162AE6024}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{15461CB4-BE0B-4E9A-AC15-13568EEB4526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCore-AngularWeb.Domain", "Core\ASP.NetCore-AngularWeb.Domain\ASP.NetCore-AngularWeb.Domain.csproj", "{B6022CBC-CACF-4491-9F77-3F0CC8AA9692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCore-AngularWeb.Application", "Core\ASP.NetCore-AngularWeb.Application\ASP.NetCore-AngularWeb.Application.csproj", "{F8BCF490-BADC-40A7-AB12-E5B1C66EA2BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5D98A81B-7185-47DC-B373-09D7318A10A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCore-AngularWeb.Infrastructure", "Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\ASP.NetCore-AngularWeb.Infrastructure.csproj", "{02CE9BE1-2468-486A-97EC-4C2391A1C8E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCore-AngularWeb.Persistence", "Infrastructure\ASP.NetCore-AngularWeb.Persistence\ASP.NetCore-AngularWeb.Persistence.csproj", "{B6B9126E-72AE-447A-9AFD-B2971991EA74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1D6A99F7-D126-4750-88A1-BD2287297A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NetCore-AngularWeb.API", "Presentation\ASP.NetCore-AngularWeb.API\ASP.NetCore-AngularWeb.API.csproj", "{A6F5FFEC-3489-4DA8-92ED-B18BE3474D69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +25,36 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6D0EE06D-DBA3-444B-9164-C67162AE6024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D0EE06D-DBA3-444B-9164-C67162AE6024}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D0EE06D-DBA3-444B-9164-C67162AE6024}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D0EE06D-DBA3-444B-9164-C67162AE6024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6022CBC-CACF-4491-9F77-3F0CC8AA9692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6022CBC-CACF-4491-9F77-3F0CC8AA9692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6022CBC-CACF-4491-9F77-3F0CC8AA9692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6022CBC-CACF-4491-9F77-3F0CC8AA9692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BCF490-BADC-40A7-AB12-E5B1C66EA2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BCF490-BADC-40A7-AB12-E5B1C66EA2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BCF490-BADC-40A7-AB12-E5B1C66EA2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BCF490-BADC-40A7-AB12-E5B1C66EA2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CE9BE1-2468-486A-97EC-4C2391A1C8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CE9BE1-2468-486A-97EC-4C2391A1C8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CE9BE1-2468-486A-97EC-4C2391A1C8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CE9BE1-2468-486A-97EC-4C2391A1C8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B9126E-72AE-447A-9AFD-B2971991EA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B9126E-72AE-447A-9AFD-B2971991EA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B9126E-72AE-447A-9AFD-B2971991EA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B9126E-72AE-447A-9AFD-B2971991EA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F5FFEC-3489-4DA8-92ED-B18BE3474D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F5FFEC-3489-4DA8-92ED-B18BE3474D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F5FFEC-3489-4DA8-92ED-B18BE3474D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F5FFEC-3489-4DA8-92ED-B18BE3474D69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6022CBC-CACF-4491-9F77-3F0CC8AA9692} = {15461CB4-BE0B-4E9A-AC15-13568EEB4526}
+		{F8BCF490-BADC-40A7-AB12-E5B1C66EA2BB} = {15461CB4-BE0B-4E9A-AC15-13568EEB4526}
+		{02CE9BE1-2468-486A-97EC-4C2391A1C8E6} = {5D98A81B-7185-47DC-B373-09D7318A10A5}
+		{B6B9126E-72AE-447A-9AFD-B2971991EA74} = {5D98A81B-7185-47DC-B373-09D7318A10A5}
+		{A6F5FFEC-3489-4DA8-92ED-B18BE3474D69} = {1D6A99F7-D126-4750-88A1-BD2287297A42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A98B281-3E3E-4EDA-B2A2-4CBCF41528AE}

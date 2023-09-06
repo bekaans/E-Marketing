@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DYaHuLk5PMtL27caAKaVGuu7s08njjQUqj6dIvam8s4=",
+  "Source": "ASP.NetCore-AngularWeb.API",
+  "BasePath": "_content/ASP.NetCore-AngularWeb.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

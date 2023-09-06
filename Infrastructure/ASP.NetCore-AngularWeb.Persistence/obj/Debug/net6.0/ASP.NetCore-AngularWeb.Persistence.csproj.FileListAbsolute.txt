@@ -1,0 +1,17 @@
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.deps.json
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Application.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Application.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.csproj.AssemblyReference.cache
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.AssemblyInfoInputs.cache
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.AssemblyInfo.cs
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.csproj.CopyComplete
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\refint\ASP.NetCore-AngularWeb.Persistence.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ref\ASP.NetCore-AngularWeb.Persistence.dll
