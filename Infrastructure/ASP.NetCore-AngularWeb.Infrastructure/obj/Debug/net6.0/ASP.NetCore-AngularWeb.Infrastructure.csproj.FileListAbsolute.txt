@@ -1,0 +1,17 @@
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.deps.json
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Application.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Application.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.AssemblyInfo.cs
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.csproj.CopyComplete
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\refint\ASP.NetCore-AngularWeb.Infrastructure.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\obj\Debug\net6.0\ref\ASP.NetCore-AngularWeb.Infrastructure.dll

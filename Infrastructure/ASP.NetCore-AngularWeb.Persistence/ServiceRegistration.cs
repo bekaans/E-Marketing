@@ -13,7 +13,7 @@ namespace ASP.NetCore_AngularWeb.Persistence
     {
         public static void AddPersistenceRegistration(this IServiceCollection services)
         {
-            services.AddDbContext<EmarketingContextDb_>(options => options.UseSqlServer("data source=localhost ; initial catalog =DbEmarketingData ; integrated security = true ;"));
+            services.AddDbContext<EmarketingContextDb_>(options => options.UseSqlServer("Server=localhost;Database=DbEmarketing;Trusted_Connection=SSPI;Encrypt=false;TrustServerCertificate=true;"));
         }
     }
 }

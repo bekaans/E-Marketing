@@ -15,3 +15,5 @@ C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-An
 C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\refint\ASP.NetCore-AngularWeb.Persistence.dll
 C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.pdb
 C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ref\ASP.NetCore-AngularWeb.Persistence.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.runtimeconfig.json
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Infrastructure\ASP.NetCore-AngularWeb.Persistence\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Persistence.genruntimeconfig.cache
