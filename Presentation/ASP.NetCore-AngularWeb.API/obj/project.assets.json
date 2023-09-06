@@ -1434,7 +1434,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "ASP.NetCore-AngularWeb.Domain": "1.0.0"
+          "ASP.NetCore-AngularWeb.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.10"
         },
         "compile": {
           "bin/placeholder/ASP.NetCore-AngularWeb.Application.dll": {}

@@ -51,3 +51,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 .vs/ASP.NetCore-AngularWeb/DesignTimeBuild/.dtbcache.v2
+Infrastructure/ASP.NetCore-AngularWeb.Infrastructure/obj/Debug/net6.0/ASP.NetCore-AngularWeb.Infrastructure.assets.cache
