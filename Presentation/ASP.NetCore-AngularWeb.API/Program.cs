@@ -1,7 +1,9 @@
 
 
-var builder = WebApplication.CreateBuilder(args);
+using ASP.NetCore_AngularWeb.Persistence;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddPersistenceRegistration();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
