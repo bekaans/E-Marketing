@@ -17,11 +17,9 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Core\ASP.NetCore-AngularWeb.Application\ASP.NetCore-AngularWeb.Application.csproj" />
+    <ProjectReference Include="..\..\Core\ASP.NetCore-AngularWeb.Domain\ASP.NetCore-AngularWeb.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\ASP.NetCore-AngularWeb.Infrastructure\ASP.NetCore-AngularWeb.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Infrastructure\ASP.NetCore-AngularWeb.Persistence\ASP.NetCore-AngularWeb.Persistence.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

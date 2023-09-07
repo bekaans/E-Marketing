@@ -33,7 +33,7 @@ namespace ASP.NetCore_AngularWeb.Persistence.Repositories
         public async Task<bool> AddRangeAsync(List<T> datas)
         {
            await Table.AddRangeAsync(datas);
-            return true;
+           return true;
         }
 
         public bool Remove(T model)

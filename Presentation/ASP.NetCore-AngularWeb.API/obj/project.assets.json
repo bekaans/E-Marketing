@@ -1454,6 +1454,19 @@
           "bin/placeholder/ASP.NetCore-AngularWeb.Domain.dll": {}
         }
       },
+      "ASP.NetCore-AngularWeb.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ASP.NetCore-AngularWeb.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ASP.NetCore-AngularWeb.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ASP.NetCore-AngularWeb.Infrastructure.dll": {}
+        }
+      },
       "ASP.NetCore-AngularWeb.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3689,6 +3702,11 @@
       "path": "../../Core/ASP.NetCore-AngularWeb.Domain/ASP.NetCore-AngularWeb.Domain.csproj",
       "msbuildProject": "../../Core/ASP.NetCore-AngularWeb.Domain/ASP.NetCore-AngularWeb.Domain.csproj"
     },
+    "ASP.NetCore-AngularWeb.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/ASP.NetCore-AngularWeb.Infrastructure/ASP.NetCore-AngularWeb.Infrastructure.csproj",
+      "msbuildProject": "../../Infrastructure/ASP.NetCore-AngularWeb.Infrastructure/ASP.NetCore-AngularWeb.Infrastructure.csproj"
+    },
     "ASP.NetCore-AngularWeb.Persistence/1.0.0": {
       "type": "project",
       "path": "../../Infrastructure/ASP.NetCore-AngularWeb.Persistence/ASP.NetCore-AngularWeb.Persistence.csproj",
@@ -3698,6 +3716,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "ASP.NetCore-AngularWeb.Application >= 1.0.0",
+      "ASP.NetCore-AngularWeb.Domain >= 1.0.0",
+      "ASP.NetCore-AngularWeb.Infrastructure >= 1.0.0",
       "ASP.NetCore-AngularWeb.Persistence >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Swashbuckle.AspNetCore >= 6.2.3"
@@ -3738,6 +3758,12 @@
           "projectReferences": {
             "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Core\\ASP.NetCore-AngularWeb.Application\\ASP.NetCore-AngularWeb.Application.csproj": {
               "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Core\\ASP.NetCore-AngularWeb.Application\\ASP.NetCore-AngularWeb.Application.csproj"
+            },
+            "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Core\\ASP.NetCore-AngularWeb.Domain\\ASP.NetCore-AngularWeb.Domain.csproj": {
+              "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Core\\ASP.NetCore-AngularWeb.Domain\\ASP.NetCore-AngularWeb.Domain.csproj"
+            },
+            "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Infrastructure\\ASP.NetCore-AngularWeb.Infrastructure\\ASP.NetCore-AngularWeb.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Infrastructure\\ASP.NetCore-AngularWeb.Infrastructure\\ASP.NetCore-AngularWeb.Infrastructure.csproj"
             },
             "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Infrastructure\\ASP.NetCore-AngularWeb.Persistence\\ASP.NetCore-AngularWeb.Persistence.csproj": {
               "projectPath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Infrastructure\\ASP.NetCore-AngularWeb.Persistence\\ASP.NetCore-AngularWeb.Persistence.csproj"
