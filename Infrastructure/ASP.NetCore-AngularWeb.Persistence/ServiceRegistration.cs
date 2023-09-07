@@ -20,12 +20,12 @@ namespace ASP.NetCore_AngularWeb.Persistence
         public static void AddPersistenceRegistration(this IServiceCollection services)
         {
             services.AddDbContext<EmarketingContextDb_>(options => options.UseSqlServer(Configurations.connectingString),ServiceLifetime.Singleton);
-            services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
-            services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
-            services.AddScoped<IProductReadRepository, ProductReadRepository>();
-            services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
-            services.AddScoped<IOrderReadRepository, OrderReadRepository>();
-            services.AddScoped<IOrderWriteRepository,OrderWriteRepository>();
+            services.AddSingleton<ICustomerReadRepository, CustomerReadRepository>();
+            services.AddSingleton<ICustomerWriteRepository, CustomerWriteRepository>();
+            services.AddSingleton<IProductReadRepository, ProductReadRepository>();
+            services.AddSingleton<IProductWriteRepository, ProductWriteRepository>();
+            services.AddSingleton<IOrderReadRepository, OrderReadRepository>();
+            services.AddSingleton<IOrderWriteRepository,OrderWriteRepository>();
         }
     }
 }

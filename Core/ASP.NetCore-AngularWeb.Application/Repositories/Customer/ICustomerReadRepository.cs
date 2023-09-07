@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ASP.NetCore_AngularWeb.Application.Repositories
 {
-    public interface ICustomerReadRepository : IRepository<Customer>
+    public interface ICustomerReadRepository : IReadRepository<Customer>
     {
     }
 }

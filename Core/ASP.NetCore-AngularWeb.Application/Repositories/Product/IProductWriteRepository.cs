@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace ASP.NetCore_AngularWeb.Application.Repositories
 {
-    public interface IProductWriteRepository : IRepository<Product>
+    public interface IProductWriteRepository : IWriteRepository<Product>
     {
+     
     }
 }

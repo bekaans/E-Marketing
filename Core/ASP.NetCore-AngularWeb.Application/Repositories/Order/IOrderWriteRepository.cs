@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ASP.NetCore_AngularWeb.Application.Repositories
 {
-    public interface IOrderWriteRepository : IRepository<Order>
+    public interface IOrderWriteRepository : IWriteRepository<Order>
     {
     }
 }
