@@ -1,4 +1,5 @@
 ﻿using ASP.NetCore_AngularWeb.Application.Repositories;
+using ASP.NetCore_AngularWeb.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,19 +20,11 @@ namespace ASP.NetCore_AngularWeb.API.Controllers
         }
         
         [HttpGet]
-        public async void Get()
+        public async Task Get()
         {
-             await _productWriteRepository.AddRangeAsync(new()
-            {
-                new() { Id = Guid.NewGuid(), Name = "Product1", Price = 100, CreateDate = DateTime.UtcNow, Stock = 10
-                },
-                new() { Id = Guid.NewGuid(), Name = "Product2", Price = 200, CreateDate = DateTime.UtcNow, Stock = 20
-                },
-                new() { Id = Guid.NewGuid(), Name = "Product3", Price = 300, CreateDate = DateTime.UtcNow, Stock = 30
-                },
-            });
-            var count = await _productWriteRepository.Save();
-            
+            Product p =await _productReadRepository.GetByIdAsync("a3d097bd-8033-489f-b0b5-bde179b8bb64",false);
+            p.Name = "Mehmet";
+            await _productWriteRepository.SaveAsync();
         }
     }
 }
