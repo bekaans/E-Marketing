@@ -15,5 +15,6 @@ namespace ASP.NetCore_AngularWeb.Domain.Entities
         public ICollection<Product> Products { get; set; }
       
         public Customer customer { get; set; }
+        public Guid customerId { get; set; }
     }
 }

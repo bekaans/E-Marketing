@@ -11,19 +11,27 @@ namespace ASP.NetCore_AngularWeb.API.Controllers
     {
         readonly private IProductWriteRepository _productWriteRepository;
         readonly private IProductReadRepository _productReadRepository;
+        readonly private IOrderWriteRepository _orderWriteRepository;
+        readonly private IOrderReadRepository _orderReadRepository;
+        readonly private ICustomerReadRepository _customerReadRepository;
+        readonly private ICustomerWriteRepository _customerWriteRepository;
 
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository)
+        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository, IOrderWriteRepository orderWriteRepository, IOrderReadRepository orderReadRepository, ICustomerReadRepository customerReadRepository, ICustomerWriteRepository customerWriteRepository)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
-            
+            _orderWriteRepository = orderWriteRepository;
+            _orderReadRepository = orderReadRepository;
+            _customerReadRepository = customerReadRepository;
+            _customerWriteRepository = customerWriteRepository;
         }
-        
+
         [HttpGet]
         public async Task Get()
-        {
-           await _productWriteRepository.AddAsync(new() { Name = "New product1", Price = 150, Stock = 157, CreateDate = DateTime.UtcNow });
-            await _productWriteRepository.SaveAsync();
+        {   var customerId = Guid.NewGuid();
+            await _customerWriteRepository.AddAsync(new() { Id = customerId, Name = "Berke" });
+             await _orderWriteRepository.AddAsync(new() { customerId=customerId , Adress="test adress", Description="test description" });
+             await _orderWriteRepository.SaveAsync();
         }
     }
 }

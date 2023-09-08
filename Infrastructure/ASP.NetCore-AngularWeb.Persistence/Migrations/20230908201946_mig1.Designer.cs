@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ASP.NetCore_AngularWeb.Persistence.Migrations
 {
     [DbContext(typeof(EmarketingContextDb_))]
-    [Migration("20230908191851_add_updatedDate")]
-    partial class add_updatedDate
+    [Migration("20230908201946_mig1")]
+    partial class mig1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
