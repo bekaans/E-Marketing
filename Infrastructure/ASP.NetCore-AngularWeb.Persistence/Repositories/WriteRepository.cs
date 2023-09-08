@@ -55,8 +55,12 @@ namespace ASP.NetCore_AngularWeb.Persistence.Repositories
             return true;
         }
 
-        public async Task<int> Save()
-         => await _context.SaveChangesAsync();
+       
+
+        public async Task<int> SaveAsync()
+        
+           => await _context.SaveChangesAsync();
+        
 
         public bool Update(T model)
         {
