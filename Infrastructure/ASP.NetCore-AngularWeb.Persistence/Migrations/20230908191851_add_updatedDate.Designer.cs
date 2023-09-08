@@ -4,6 +4,7 @@ using ASP.NetCore_AngularWeb.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ASP.NetCore_AngularWeb.Persistence.Migrations
 {
     [DbContext(typeof(EmarketingContextDb_))]
-    partial class EmarketingContextDb_ModelSnapshot : ModelSnapshot
+    [Migration("20230908191851_add_updatedDate")]
+    partial class add_updatedDate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

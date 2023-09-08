@@ -22,8 +22,7 @@ namespace ASP.NetCore_AngularWeb.API.Controllers
         [HttpGet]
         public async Task Get()
         {
-            Product p =await _productReadRepository.GetByIdAsync("a3d097bd-8033-489f-b0b5-bde179b8bb64",false);
-            p.Name = "Mehmet";
+           await _productWriteRepository.AddAsync(new() { Name = "New product1", Price = 150, Stock = 157, CreateDate = DateTime.UtcNow });
             await _productWriteRepository.SaveAsync();
         }
     }
