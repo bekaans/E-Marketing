@@ -124,3 +124,5 @@ C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Presentation\ASP.NetCore-Angu
 C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Presentation\ASP.NetCore-AngularWeb.API\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Presentation\ASP.NetCore-AngularWeb.API\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Presentation\ASP.NetCore-AngularWeb.API\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Presentation\ASP.NetCore-AngularWeb.API\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Presentation\ASP.NetCore-AngularWeb.API\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Infrastructure.pdb

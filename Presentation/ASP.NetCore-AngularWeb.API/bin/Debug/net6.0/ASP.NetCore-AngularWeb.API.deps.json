@@ -9,6 +9,8 @@
       "ASP.NetCore-AngularWeb.API/1.0.0": {
         "dependencies": {
           "ASP.NetCore-AngularWeb.Application": "1.0.0",
+          "ASP.NetCore-AngularWeb.Domain": "1.0.0",
+          "ASP.NetCore-AngularWeb.Infrastructure": "1.0.0",
           "ASP.NetCore-AngularWeb.Persistence": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.10",
           "Swashbuckle.AspNetCore": "6.2.3"
@@ -927,7 +929,8 @@
       },
       "ASP.NetCore-AngularWeb.Application/1.0.0": {
         "dependencies": {
-          "ASP.NetCore-AngularWeb.Domain": "1.0.0"
+          "ASP.NetCore-AngularWeb.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.10"
         },
         "runtime": {
           "ASP.NetCore-AngularWeb.Application.dll": {}
@@ -936,6 +939,14 @@
       "ASP.NetCore-AngularWeb.Domain/1.0.0": {
         "runtime": {
           "ASP.NetCore-AngularWeb.Domain.dll": {}
+        }
+      },
+      "ASP.NetCore-AngularWeb.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ASP.NetCore-AngularWeb.Application": "1.0.0"
+        },
+        "runtime": {
+          "ASP.NetCore-AngularWeb.Infrastructure.dll": {}
         }
       },
       "ASP.NetCore-AngularWeb.Persistence/1.0.0": {
@@ -1506,6 +1517,11 @@
       "sha512": ""
     },
     "ASP.NetCore-AngularWeb.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ASP.NetCore-AngularWeb.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
