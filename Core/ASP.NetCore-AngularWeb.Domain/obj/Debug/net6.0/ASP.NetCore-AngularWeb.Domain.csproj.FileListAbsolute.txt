@@ -10,3 +10,15 @@ C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.D
 C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\refint\ASP.NetCore-AngularWeb.Domain.dll
 C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.pdb
 C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ref\ASP.NetCore-AngularWeb.Domain.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.deps.json
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\bin\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.csproj.AssemblyReference.cache
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.AssemblyInfoInputs.cache
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.AssemblyInfo.cs
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\refint\ASP.NetCore-AngularWeb.Domain.dll
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ASP.NetCore-AngularWeb.Domain.pdb
+C:\Users\Berke Kaan\Desktop\ASP.NetCore-AngularWeb\ASP.NetCore-AngularWeb\Core\ASP.NetCore-AngularWeb.Domain\obj\Debug\net6.0\ref\ASP.NetCore-AngularWeb.Domain.dll
