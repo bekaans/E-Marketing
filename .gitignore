@@ -60,3 +60,4 @@ Infrastructure/ASP.NetCore-AngularWeb.Infrastructure/obj/Debug/net6.0/ASP.NetCor
 .vs/ASP.NetCore-AngularWeb/FileContentIndex/a785da6a-7f5b-44ec-a6cb-d0eaa309e1e4.vsidx
 .vs/ASP.NetCore-AngularWeb/FileContentIndex/1dd35896-c1b1-4430-bea6-69c3c3629d89.vsidx
 emarketingClient/src/app/uı/components/home/home.component.scss
+EmarketingClient/src/app/app.component.html
