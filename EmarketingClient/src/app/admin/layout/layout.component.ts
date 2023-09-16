@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 declare var alertify:any;
 
 @Component({
@@ -8,4 +8,8 @@ declare var alertify:any;
 })
 export class LayoutComponent {
 
+  constructor(){}
+  ngOnInit():void{
+    alertify.success('Ready');
+  }
 }

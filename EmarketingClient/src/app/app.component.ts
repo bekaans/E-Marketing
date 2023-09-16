@@ -8,3 +8,5 @@ declare var $: any
 export class AppComponent {
   title = 'EmarketingClient';
 }
+//$(document).ready(()=>{
+//alert("Jquery Test")})
