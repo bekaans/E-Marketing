@@ -10,6 +10,6 @@ export class LayoutComponent {
 
   constructor(){}
   ngOnInit():void{
-    alertify.success('Test1');
+    alertify.success('Test12');
   }
 }
