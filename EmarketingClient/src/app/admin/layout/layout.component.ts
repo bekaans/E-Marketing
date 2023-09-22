@@ -1,5 +1,7 @@
 import { Component,OnInit } from '@angular/core';
-declare var alertify:any;
+import { delay } from 'rxjs';
+import { MessageType,AlertifyService,Position } from 'src/app/services/admin/alertify.service';
+
 
 @Component({
   selector: 'app-layout',
@@ -8,8 +10,8 @@ declare var alertify:any;
 })
 export class LayoutComponent {
 
-  constructor(){}
+  constructor(private alertify:AlertifyService){}
   ngOnInit():void{
-    alertify.success('Succes Message');
+      this.alertify.message("Hi",MessageType.Success,Position.BottomCenter,15);
   }
 }
