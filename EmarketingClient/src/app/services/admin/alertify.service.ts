@@ -7,14 +7,21 @@ export class AlertifyService {
 
   constructor() { }
 
-  message(message: string,messageType:MessageType,position : Position,delay:number=3){
-    alertify.set('notifier','delay',delay);
-    alertify.set('notifier','position',position);
-    alertify[messageType](message);
+  message(message: string,options:AlertifyOptions){
+    alertify.set('notifier','delay',options.delay);
+    alertify.set('notifier','position',options.position);
+    alertify[options.messageType](message);
   }
   dismiss(){
     alertify.dismissAll();
   }
+ 
+}
+export class AlertifyOptions{
+  messageType:MessageType=MessageType.Message;
+  position:Position=Position.TopCenter;
+  delay:number=3;
+  
 }
 export enum MessageType {
   Error = "error",
