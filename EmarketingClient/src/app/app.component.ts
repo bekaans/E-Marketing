@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ToastrService } from 'ngx-toastr';
 import { CustomToastrService, ToastrMessageType, ToastrPosition } from './services/ui/custom-toastr.service';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 declare var $: any
 @Component({
@@ -11,8 +11,10 @@ declare var $: any
 export class AppComponent {
   title = 'EmarketingClient';
   constructor(private toastrService : CustomToastrService){
-    toastrService.message("merhaba","berke",{
-      messageType:ToastrMessageType.Info,
-      position:ToastrPosition.TopCenter
+    toastrService.message("Siparişiniz oluşturuldu","",{
+      messageType:ToastrMessageType.Success,
+      position:ToastrPosition.TopCenter,
+      
     });
-  }}
+  }
+}
