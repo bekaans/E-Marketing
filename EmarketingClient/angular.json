@@ -36,7 +36,9 @@
               "node_modules/alertifyjs/build/css/alertify.min.css",
               "node_modules/alertifyjs/build/css/themes/semantic.min.css",
               "node_modules/ngx-toastr/toastr.css",
-              "node_modules/ngx-toastr/toastr-old.css"
+              "node_modules/ngx-spinner/animations/ball-spin.css",
+              "node_modules/ngx-spinner/animations/ball-spin-fade-rotating.css"
+              
             ],
             "scripts": [
               "node_modules/alertifyjs/build/alertify.min.js",
