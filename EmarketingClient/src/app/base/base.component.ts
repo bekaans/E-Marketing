@@ -4,14 +4,16 @@ import { NgxSpinnerService } from 'ngx-spinner';
 export class BaseComponent {
 constructor(private spinner:NgxSpinnerService){}
 
-showSpinner(){
-  this.spinner.show();
+showSpinner(spinnerNameType : spinnerType){
+  this.spinner.show(spinnerNameType);
+  setTimeout(()=> this.hideSpinner(spinnerNameType),750);
+}
+hideSpinner(spinnerNameType:spinnerType){
+  this.spinner.hide(spinnerNameType)
 }
 }
-
-
 export enum spinnerType{
-  ballspin = "ball-spin",
-  ballSpinFadeRotating = "ball-spin-fade-rotating"
+  ballspin = "s1",
+  ballSpinFadeRotating = "s2"
 
 }
