@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4n2DtkgH3sTQa7KFVsjlqIvmxtx/iaasuy/XgU3Nl5fs0RTJQ+kwRpvCc5K+YoOWtFncZhGYlfu9H8ZrLO2RSA==",
+  "dgSpecHash": "6MuoaUbPORltcI5uRurJd1zRf0TSfU56D/prOtrPBv1ZaTIdIA8aT4APl2LYGpxUazTEEtH1epePHVIjTgwX0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Core\\ASP.NetCore-AngularWeb.Application\\ASP.NetCore-AngularWeb.Application.csproj",
+  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\OnionLayer-CodeFirst-Angular\\Core\\ASP.NetCore-AngularWeb.Application\\ASP.NetCore-AngularWeb.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

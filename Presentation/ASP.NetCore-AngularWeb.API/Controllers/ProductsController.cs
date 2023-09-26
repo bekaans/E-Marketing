@@ -27,11 +27,10 @@ namespace ASP.NetCore_AngularWeb.API.Controllers
         }
 
         [HttpGet]
-        public async Task Get()
-        {   var customerId = Guid.NewGuid();
-            await _customerWriteRepository.AddAsync(new() { Id = customerId, Name = "Berke" });
-             await _orderWriteRepository.AddAsync(new() { customerId=customerId , Adress="test adress", Description="test description" });
-             await _orderWriteRepository.SaveAsync();
+        public async Task<IActionResult> Get()
+        {
+            return Ok("merhaba");
+           
         }
     }
 }

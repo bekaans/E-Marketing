@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ae8/2ZOys6pn7TTvGdPXK6+n/qGGaRd7NnMW5CKqqaN4TwusjOcfCikyeCc+wJWvbLCq7XqGMQ2Kmazqe5iuuw==",
+  "dgSpecHash": "pCr4RqZQcyQj55A/RP/nk880KCY1NxYDNk6SQrCXUychywBZgnpQAH58GQZJTCeCVF0daw82mi4CiN0aUIApCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Presentation\\ASP.NetCore-AngularWeb.API\\ASP.NetCore-AngularWeb.API.csproj",
+  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\OnionLayer-CodeFirst-Angular\\Presentation\\ASP.NetCore-AngularWeb.API\\ASP.NetCore-AngularWeb.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

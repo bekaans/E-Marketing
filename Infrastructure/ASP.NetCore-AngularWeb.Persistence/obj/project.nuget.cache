@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nr8G+CqvH8igcBU1HahC4D/qyKUkwe66hG5rqRfRCK1MsULUXKqJLJccKKOAx8r4+9nLEaIZxsRQBSBvT9mCAg==",
+  "dgSpecHash": "Jyogd/OOoVeFDGub7HMWxk9poBgcbGI+QD9cPfK/Yg5A5gwV0Q2J4WdR+z2WU1bU6FQxnU1BFFTUOljscBIbBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Infrastructure\\ASP.NetCore-AngularWeb.Persistence\\ASP.NetCore-AngularWeb.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\OnionLayer-CodeFirst-Angular\\Infrastructure\\ASP.NetCore-AngularWeb.Persistence\\ASP.NetCore-AngularWeb.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

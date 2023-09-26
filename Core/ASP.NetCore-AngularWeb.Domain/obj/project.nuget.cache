@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fuFS9jBDfY6U979LiiEHiPOohZAxaWgF0SNdBbPCSzhT6RLVzH1Crkq+QN3d87g+QZzbqjhH8SeYVepDlObDtQ==",
+  "dgSpecHash": "408sp5EXnoZkoqcx+sjZCYWv4zjYGcyrBU8+TPyzzFBYjf5+8QyJVXGaP1VqfZWQVtOUvocBT98ayiq7Zp4YlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\ASP.NetCore-AngularWeb\\Core\\ASP.NetCore-AngularWeb.Domain\\ASP.NetCore-AngularWeb.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\OnionLayer-CodeFirst-Angular\\Core\\ASP.NetCore-AngularWeb.Domain\\ASP.NetCore-AngularWeb.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
