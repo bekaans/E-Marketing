@@ -41,8 +41,8 @@ namespace ASP.NetCore_AngularWeb.API.Controllers
             {
                 Name = model.Name,
                 Price = model.Price,
-                Stock = model.Stock,
-            });
+                Stock = model.Stock
+            }) ;
             await _productWriteRepository.SaveAsync();
             return StatusCode((int)HttpStatusCode.Created);
         }
