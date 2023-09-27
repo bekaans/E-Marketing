@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CustomToastrService, ToastrMessageType, ToastrPosition } from './services/ui/custom-toastr.service';
-import { NgxSpinnerService } from 'ngx-spinner';
+
 
 declare var $: any
 @Component({

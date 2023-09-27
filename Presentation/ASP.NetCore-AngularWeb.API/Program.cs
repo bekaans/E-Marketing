@@ -2,6 +2,7 @@
 
 using ASP.NetCore_AngularWeb.Persistence;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.HttpsPolicy;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddPersistenceRegistration();
