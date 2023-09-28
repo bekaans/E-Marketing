@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6MuoaUbPORltcI5uRurJd1zRf0TSfU56D/prOtrPBv1ZaTIdIA8aT4APl2LYGpxUazTEEtH1epePHVIjTgwX0Q==",
+  "dgSpecHash": "kthaWkngG2u2tWj6wGMOSb8vc1yD63dx315l9re3h5peZvoRUwM3IDck9ilKvPXMXnAyohAtMzHkQ8HDdA9naw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\OnionLayer-CodeFirst-Angular\\Core\\ASP.NetCore-AngularWeb.Application\\ASP.NetCore-AngularWeb.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.10\\microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",

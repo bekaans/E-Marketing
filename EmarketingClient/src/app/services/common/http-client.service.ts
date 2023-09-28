@@ -1,4 +1,4 @@
-import { Inject, Injectable, inject } from '@angular/core';
+import { Inject, Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 @Injectable({
@@ -11,7 +11,7 @@ export class HttpClientService {
   private url(requestParameter:Partial<RequestParameters> ):string{
       return `${requestParameter.baseUrl ?requestParameter.baseUrl:this.baseUrl}
       /${requestParameter.controller}${requestParameter.action ? 
-        `/${requestParameter.action}` : "" }`;
+        `/${requestParameter.action}` : "" }` ;
   }
 
   get<T>(requestParameters:Partial<RequestParameters>,id?:string ):Observable<T>{

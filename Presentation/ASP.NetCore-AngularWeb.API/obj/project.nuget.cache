@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "pCr4RqZQcyQj55A/RP/nk880KCY1NxYDNk6SQrCXUychywBZgnpQAH58GQZJTCeCVF0daw82mi4CiN0aUIApCw==",
+  "dgSpecHash": "UvOsIfMVDrJxgHZfL8Mt+6cll90LjmlkSryy93fFYNxhptuWIHzANxgkdilzFkjhsjRPWGiL59VPdUrR1QohdA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Berke Kaan\\Desktop\\OnionLayer-CodeFirst-Angular\\Presentation\\ASP.NetCore-AngularWeb.API\\ASP.NetCore-AngularWeb.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Berke Kaan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Berke Kaan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
