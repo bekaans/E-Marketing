@@ -18,6 +18,7 @@ namespace ASP.NetCore_AngularWeb.Infrastructure.Filters
                     .Where(x => x.Value.Errors.Any()).ToDictionary(e => e.Key, e => e.Value.Errors.Select(e => e.ErrorMessage))
                     .ToArray();
                 context.Result = new BadRequestObjectResult(errors);
+                return;
             }
             await next();
         }
