@@ -254,3 +254,6 @@ C:\Users\Berke Kaan\Desktop\OnionLayer-CodeFirst-Angular\Presentation\ASP.NetCor
 C:\Users\Berke Kaan\Desktop\OnionLayer-CodeFirst-Angular\Presentation\ASP.NetCore-AngularWeb.API\obj\Debug\net6.0\ASP.NetCore-AngularWeb.API.pdb
 C:\Users\Berke Kaan\Desktop\OnionLayer-CodeFirst-Angular\Presentation\ASP.NetCore-AngularWeb.API\obj\Debug\net6.0\ASP.NetCore-AngularWeb.API.genruntimeconfig.cache
 C:\Users\Berke Kaan\Desktop\OnionLayer-CodeFirst-Angular\Presentation\ASP.NetCore-AngularWeb.API\obj\Debug\net6.0\ref\ASP.NetCore-AngularWeb.API.dll
+C:\Users\Berke Kaan\Desktop\OnionLayer-CodeFirst-Angular\Presentation\ASP.NetCore-AngularWeb.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Berke Kaan\Desktop\OnionLayer-CodeFirst-Angular\Presentation\ASP.NetCore-AngularWeb.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Berke Kaan\Desktop\OnionLayer-CodeFirst-Angular\Presentation\ASP.NetCore-AngularWeb.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
