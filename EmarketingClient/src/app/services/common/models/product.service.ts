@@ -9,8 +9,15 @@ import { HttpErrorResponse, HttpResponse } from '@angular/common/http';
 })
 export class ProductService {
 
-  constructor() { }
+  constructor(private httpClientService : HttpClientService) { }
 
-  
+  createProduct(product:Create_Product,successCallback?:any){
+    this.httpClientService.post({
+      controller:"products"
+    },product).subscribe(result=>{
+      successCallback();
+        alert("success");
+    })
+  }
  
 }
