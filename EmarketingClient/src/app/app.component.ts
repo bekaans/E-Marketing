@@ -10,11 +10,5 @@ declare var $: any
 })
 export class AppComponent {
   title = 'EmarketingClient';
-  constructor(private toastrService : CustomToastrService){
-    toastrService.message("Siparişiniz oluşturuldu","",{
-      messageType:ToastrMessageType.Success,
-      position:ToastrPosition.TopCenter,
-      
-    });
-  }
+  constructor(){}
 }

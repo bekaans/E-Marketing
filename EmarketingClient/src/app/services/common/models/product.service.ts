@@ -11,13 +11,22 @@ export class ProductService {
 
   constructor(private httpClientService : HttpClientService) { }
 
-  createProduct(product:Create_Product,successCallback?:any){
+  createProduct(product:Create_Product,successCallback?:any,errorCallBack?:any){
     this.httpClientService.post({
       controller:"products"
     },product).subscribe(result=>{
       successCallback();
-        alert("success");
-    })
+
+    },(errorResponse:HttpErrorResponse)=>{
+      const _error:Array<{key:string,value:Array<string>}> = errorResponse.error;
+      let message="";
+      _error.forEach((v,index)=>{
+        v.value.forEach((_v,_index)=>{
+          message += `${_v}<br>`;
+        });
+      });
+        errorCallBack(message);
+    });
   }
  
 }

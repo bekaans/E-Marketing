@@ -7,7 +7,7 @@ export class AlertifyService {
 
   constructor() { }
 
-  message(message: string,options:AlertifyOptions){
+  message(message: string,options?:AlertifyOptions){
     alertify.set('notifier','delay',options.delay);
     alertify.set('notifier','position',options.position);
     alertify[options.messageType](message);

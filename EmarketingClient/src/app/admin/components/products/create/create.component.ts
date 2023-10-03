@@ -26,6 +26,7 @@ create(txtName:HTMLInputElement,txtStock:HTMLInputElement,txtPrice:HTMLInputElem
   create_product.name=txtName.value;
   create_product.price=parseInt(txtPrice.value);
   create_product.stock=parseFloat(txtStock.value);
+
   this.productService.createProduct(create_product,()=>{
     this.hideSpinner(spinnerType.ballSpinFadeRotating);
     this.alertify.message("Success",{
@@ -33,6 +34,12 @@ create(txtName:HTMLInputElement,txtStock:HTMLInputElement,txtPrice:HTMLInputElem
       position:Position.TopRight,
       delay:4
     });
+  },errorMessage=>{
+    this.alertify.message(errorMessage,{
+      delay:2,
+      messageType:MessageType.Error,
+      position:Position.TopRight
+    })
   });
 }
 }
