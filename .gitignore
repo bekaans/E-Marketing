@@ -72,3 +72,4 @@ Presentation/ASP.NetCore-AngularWeb.API/obj/project.assets.json
 .vs/ASP.NetCore-AngularWeb/FileContentIndex/bf4a0938-30b3-41ed-a497-460838c743fd.vsidx
 .vs/ASP.NetCore-AngularWeb/FileContentIndex/c3dcd6ae-ae7b-420d-b76e-851ccdccd021.vsidx
 Core/ASP.NetCore-AngularWeb.Application/obj/Debug/net6.0/ASP.NetCore-AngularWeb.Application.csproj.AssemblyReference.cache
+EmarketingClient/src/app/admin/components/products/products.component.scss

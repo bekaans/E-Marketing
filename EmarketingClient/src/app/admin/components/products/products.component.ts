@@ -20,18 +20,19 @@ export class ProductsComponent extends BaseComponent implements OnInit {
    /*this.httpClientService.post({
     controller:"products"
    },{
-    name:"Defter",
+    name:"Kitap",
     stock:150,
     price:10
-   }).subscribe();
+   }).subscribe(); 
    this.httpClientService.post({
     controller:"products"
    },{
-    name:"Silgi",
+    name:"Kalemtıraş",
     stock:150,
     price:10
    }).subscribe();
    */
+   
  /* this.httpClientService.put({
     controller:"products"
   },{
@@ -41,10 +42,9 @@ export class ProductsComponent extends BaseComponent implements OnInit {
     price:50
 
   }).subscribe(); */
-  this.httpClientService.delete({
-    controller:"products"
-  },
-   "214735b9-67f5-41b7-7446-08dbc3435ae9"
-  ).subscribe();
+  
+ /*this.httpClientService.delete({
+  controller:"products"
+ },"280fcf48-535c-418f-3bc6-08dbc34b0f65").subscribe(); */
 }
   }

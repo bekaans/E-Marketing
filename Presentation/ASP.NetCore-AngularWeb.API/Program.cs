@@ -16,15 +16,17 @@ builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.Al
 var app = builder.Build();
 app.UseCors();
 app.UseHttpsRedirection();
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-app.UseAuthentication();
+
 app.UseRouting();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
 app.UseEndpoints(endpoints => endpoints.MapControllers());
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 

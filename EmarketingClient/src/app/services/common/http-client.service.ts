@@ -34,10 +34,10 @@ else
 url= `${this.url(requestParameters)}`;
 return this.httpClient.put<T>(url,body ,{headers:requestParameters.headers})
 }
-delete<T>(requestParameters:Partial<RequestParameters>,id:string):Observable<T>{
-let url :string ="";
-if(requestParameters.fullEndPoint)
-url=requestParameters.fullEndPoint;
+delete<T>(requestParameters:Partial<RequestParameters>,id:string): Observable<T>{
+  let url:string = "" ;
+  if(requestParameters.fullEndPoint)
+  url=requestParameters.fullEndPoint;
 else
 url=`${this.url(requestParameters)}/${id}`;
 return this.httpClient.delete<T>(url,{headers:requestParameters.headers})
