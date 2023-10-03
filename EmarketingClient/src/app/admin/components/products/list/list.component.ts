@@ -12,15 +12,15 @@ import { ProductService } from 'src/app/services/common/models/product.service';
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss']
 })
-export class ListComponent {
+export class ListComponent implements OnInit {
 
-  constructor(){
+  constructor(){}
 
+  displayedColumns: string[] = ['name', 'stock', 'createdDate', 'updatedDate'];
+  dataSource:MatTableDataSource<List_Product> = null;
+  ngOnInit(): void {
+    
   }
-  
- 
-   
-   
   }
 
 
