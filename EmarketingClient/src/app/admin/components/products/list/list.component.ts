@@ -23,7 +23,7 @@ export class ListComponent extends BaseComponent implements OnInit,AfterViewInit
     this.dataSource.paginator=this.paginator;
   }
 
-  displayedColumns: string[] = ['name', 'stock', 'price'];
+  displayedColumns: string[] = ['name', 'stock', 'price','edit','delete'];
   dataSource:MatTableDataSource<List_Product> = null;
   @ViewChild(MatPaginator)paginator:MatPaginator;
 async  getProducts(){
