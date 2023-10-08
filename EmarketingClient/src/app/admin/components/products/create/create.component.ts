@@ -1,4 +1,4 @@
-import { Component,OnInit } from '@angular/core';
+import { Component,OnInit,EventEmitter, Output } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { delay } from 'rxjs';
 import { BaseComponent, spinnerType } from 'src/app/base/base.component';
@@ -20,6 +20,9 @@ export class CreateComponent extends BaseComponent  implements OnInit{
   ngOnInit(): void {
     
   }
+
+  @Output() createdProduct:EventEmitter<Create_Product>=new EventEmitter();
+
 create(txtName:HTMLInputElement,txtStock:HTMLInputElement,txtPrice:HTMLInputElement){
   this.showSpinner(spinnerType.ballSpinFadeRotating);
   const create_product:Create_Product = new Create_Product();
@@ -34,6 +37,7 @@ create(txtName:HTMLInputElement,txtStock:HTMLInputElement,txtPrice:HTMLInputElem
       position:Position.TopRight,
       delay:4
     });
+    this.createdProduct.emit(create_product);
   },errorMessage=>{
     this.alertify.message(errorMessage,{
       delay:2,

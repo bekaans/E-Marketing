@@ -1,4 +1,5 @@
 ﻿using ASP.NetCore_AngularWeb.Application.Repositories;
+using ASP.NetCore_AngularWeb.Application.RequestParameters;
 using ASP.NetCore_AngularWeb.Application.ViewModels.Products;
 using ASP.NetCore_AngularWeb.Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -24,9 +25,10 @@ namespace ASP.NetCore_AngularWeb.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery]Pagination pagination)
         {
-            return Ok(_productReadRepository.GetAll(false).Select(p => new
+            var totalCount = _productReadRepository.GetAll(false).Count();
+            var products = _productReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size).Select(p => new
             {
                 p.Id,
                 p.Name,
@@ -34,7 +36,11 @@ namespace ASP.NetCore_AngularWeb.API.Controllers
                 p.Price,
                 p.CreateDate,
                 p.UpdatedDate
-            }));
+            }).ToList();
+            return Ok(new
+            {
+                totalCount, products
+            });
         }
 
         [HttpGet("{id}")]
